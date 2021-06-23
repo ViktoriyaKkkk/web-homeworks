@@ -1,0 +1,10 @@
+{
+    "request": {
+        "urlPath": "/dog",
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "cat.jpg"
+    }
+}
