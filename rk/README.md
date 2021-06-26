@@ -19,6 +19,8 @@
 
 ![joins-in-mysql-14](https://user-images.githubusercontent.com/62558636/123510672-7bbe5e00-d685-11eb-99b0-4df0c5f665a6.jpg)
 
+***
+
 Список используемых источников:
 * [JOIN в MySQL](https://www.riwkus.pro/notes/web/back-end/mysql-sql/inner-join-in-mysql,-left,-right,-full,-cross-what-it-is-and-how-to-use/)
 * [Соединение таблиц – операция JOIN и ее виды](https://office-menu.ru/uroki-sql/92-sql-join)
