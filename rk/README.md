@@ -7,12 +7,11 @@
 
 ![joins-in-mysql-1](https://user-images.githubusercontent.com/62558636/123510546-e7ec9200-d684-11eb-916c-feb51eca5b13.jpg)
 
-Item | Value | Quantity
-:——— |:——:| ——-:
-Computer | 1600 | 3
-Phone | 12 | 2
-Pipe | 1 | 1
-
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 ```
 SELECT
   -- Перечисляем столбцы, которые хотим вывести
