@@ -7,7 +7,7 @@
 
 ![joins-in-mysql-1](https://user-images.githubusercontent.com/62558636/123510546-e7ec9200-d684-11eb-916c-feb51eca5b13.jpg)
 
-| Tables        | Are           | Cool  |
+| id            |Имя            | Отдел |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
