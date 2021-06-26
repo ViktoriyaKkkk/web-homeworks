@@ -21,3 +21,5 @@
 
 Список используемых источников:
 * [JOIN в MySQL](https://www.riwkus.pro/notes/web/back-end/mysql-sql/inner-join-in-mysql,-left,-right,-full,-cross-what-it-is-and-how-to-use/)
+* [Соединение таблиц – операция JOIN и ее виды](https://office-menu.ru/uroki-sql/92-sql-join)
+* [Шпаргалка по синтаксису markdown](http://ilfire.ru/kompyutery/shpargalka-po-sintaksisu-markdown-markdaun-so-vsemi-samymi-populyarnymi-tegami/#link6)
