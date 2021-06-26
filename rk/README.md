@@ -9,15 +9,15 @@
 
 | id            |Имя            | Отдел |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+|1              | Ульяна        | 1     |
+|2              | Чонгук        | 1     |
+|3              | Гарри         | 2     |
 
 | id            |Наименование   |
 | ------------- |:-------------:|
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+| 1             | Бухгалтерия   |
+| 2             | Отдел продаж  |
+| 3             | Коммерция     |
 
 ```
 SELECT
