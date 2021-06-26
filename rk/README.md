@@ -75,6 +75,17 @@ FROM
 
 ![joins-in-mysql-14](https://user-images.githubusercontent.com/62558636/123510672-7bbe5e00-d685-11eb-99b0-4df0c5f665a6.jpg)
 
+```
+SELECT
+  Сотрудники.id,
+  Сотрудники.Имя,
+  Отделы.Наименование AS Отдел
+FROM
+  Отделы
+  CROSS JOIN Сотрудники
+    ON Сотрудники.Отдел = Отделы.id
+```
+
 ***
 
 Список используемых источников:
