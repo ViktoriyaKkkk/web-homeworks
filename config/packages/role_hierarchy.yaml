@@ -1,0 +1,15 @@
+security:
+  role_hierarchy:
+    !php/const App\Core\User\Enum\Role::ADMIN:
+      - !php/const App\Core\User\Enum\Role::RECIPES
+      - !php/const App\Core\User\Enum\Role::OPERATOR
+      - !php/const App\Core\User\Enum\Permission::RECIPES_CREATE
+      - !php/const App\Core\User\Enum\Permission::RECIPES_UPDATE
+      - !php/const App\Core\User\Enum\Permission::RECIPES_DELETE
+      - !php/const App\Core\User\Enum\Permission::RECIPES_VALIDATION
+    !php/const App\Core\User\Enum\Role::OPERATOR:
+      - !php/const App\Core\User\Enum\Role::RECIPES
+      - !php/const App\Core\User\Enum\Permission::RECIPES_CONTACT_CREATE
+      - !php/const App\Core\User\Enum\Permission::RECIPES_INDEX
+    !php/const App\Core\User\Enum\Role::RECIPES:
+      - !php/const App\Core\User\Enum\Permission::RECIPES_SHOW
